@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom, #fdeff9, #ec38bc);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ec38bc;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.quotes p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.question {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#yesBtn {
+    background: #4CAF50;
+    color: white;
+}
+
+#noBtn {
+    background: #ec38bc;
+    color: white;
+    position: relative;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ec38bc;
+}
